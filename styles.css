@@ -1,0 +1,48 @@
+* {
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+ngx-tweet {
+    display: flex;
+    justify-content: center;
+}
+
+.fill {
+    background-image: url(img/cloud.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.fill img {
+    height: 100%;
+    width: 100%;
+    /* min-width: 100%;
+    min-height: 100% */
+}
+
+body {
+    margin: 0;
+}
+
